@@ -1,2 +1,2 @@
-# adevent-of-code-2019
+# advent-of-code-2019
 Language: Typescript
