@@ -151,7 +151,6 @@ def part1():
     wire2Coords = createWire(wire2)
 
     allIntersections = checkIntersections(wire1Coords, wire2Coords)
-
     allDists = calculateDistance(allIntersections)
 
     f.close()
@@ -174,9 +173,7 @@ def part2():
 
     sums1 = sumWireIntersections(allIntersections, wire1, 2)
     sums2 = sumWireIntersections(allIntersections, wire2, 3)
-
     allSums = sumLists(sums1, sums2)
-    print(allSums)
 
     f.close()
 
